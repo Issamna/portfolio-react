@@ -6,7 +6,7 @@ const Top = () => {
   return (
     <section id="top" className="top">
         <div className="center-div">
-            <img src="/images/portfolio_image.png" alt="image" />
+            <img src="./images/portfolio_image.png" alt="image" />
             <div className="top-text">
                 <h1>Issam Ahmed</h1>
                 

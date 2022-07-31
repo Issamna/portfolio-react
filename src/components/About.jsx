@@ -9,7 +9,7 @@ const About = () => {
     <section id="about">
       <Title name='About Me' />
       <div className="center-div">
-        <img className='about-me-img' src="/images/ia_pic.jpg" alt="image" />
+        <img className='about-me-img' src="./images/ia_pic.jpg" alt="image" />
         <div className="about-text-box">
           <div className="about-text">
             <p><span>Hi!</span> {aboutme.description1}</p>
@@ -18,7 +18,7 @@ const About = () => {
         </div>
       </div>  
       <div className="center-div subsection-box">
-        <img className="section-box-img" src="/images/skillstech.png" alt="image" />
+        <img className="section-box-img" src="./images/skillstech.png" alt="image" />
         <h3>Skills And Tech</h3>
         <div className="skills-list">
           {skills.map((skill) =>(
